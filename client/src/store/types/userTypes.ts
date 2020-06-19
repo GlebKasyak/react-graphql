@@ -1,0 +1,9 @@
+export const LOGIN_REQUEST = "user/LOGIN_REQUEST";
+export const LOGIN_SUCCESS = "user/LOGIN_SUCCESS";
+
+export const REGISTER_REQUEST = "user/REGISTER_REQUEST";
+
+export const GET_USER_AUTH_DATA_REQUEST = "user/GET_USER_AUTH_DATA_REQUEST";
+export const GET_USER_AUTH_DATA_SUCCESS = "user/GET_USER_AUTH_DATA_SUCCESS";
+
+export const LOGOUT_SUCCESS = "user/LOGOUT_SUCCESS";

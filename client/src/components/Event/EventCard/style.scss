@@ -1,0 +1,26 @@
+
+.event-card {
+  $self: &;
+
+  min-width: 275px;
+  max-width: 600px;
+  margin: 1rem auto;
+
+  &__data {
+    font-size: 0.875rem;
+  }
+
+  &__price {
+    margin-top: 0.5rem!important;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #{ $self }__owner {
+      padding-left: 1rem;
+    }
+  }
+}

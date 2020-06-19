@@ -1,0 +1,17 @@
+
+.booking-page {
+
+  .booking-tabs-wrapper {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+
+    .booking-tab {
+      margin: 0 0.5rem;
+    }
+
+    .booking-tab--active {
+      border-bottom: 0.125rem solid #f50057;
+    }
+  }
+}

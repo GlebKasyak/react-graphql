@@ -1,0 +1,12 @@
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  padding-top: 3rem;
+  margin: auto;
+
+  &__btn {
+    margin-top: 1rem!important;
+  }
+}
